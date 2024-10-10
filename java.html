@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <nav>
+        <nav>
+    <a href="index.html">Principal</a>
+    <a href="tinkercad.html">TinkerCad</a>
+    <a href="c++.html">Comando C++</a>
+    <a href="java.html">Java</a>
+    <nav>
+        <br>
+        <h1>O que é Java?</h1>
+        <br>
+        <p>Java é uma linguagem de programação orientada a objeto, multiplataforma que é executada em bilhões de dispositivos em todo o mundo. Ele capacita aplicativos, sistemas operacionais de smartphones, software empresarial e muitos programas conhecidos.
+        <br>
+        <br>
+         O Java é uma linguagem de programação extremamente transferível usada entre plataformas e diferentes tipos de dispositivos, de smartphones a TVs inteligentes. É usado para criar aplicativos móveis e Web, software empresarial, dispositivos de Internet das Coisas (IoT), jogos, Big Data, distribuídos e aplicativos baseados em nuvem entre outros tipos. 
+        </p>
+        <br>
+        <h1> Código Java- imagem</h1>
+        <br>
+        <div>
+            <img src="codigo_java.jpg" alt="">
+            <br>
+            <small>Fonte: O autor</small>
+        </div>
+        <h1>Código Java- texto</h1>
+        <br>
+        <pre>
+            import java.util.Scanner;
+
+public class programa04 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int pot1 = 0, pot2 = 0, res = 0;
+        boolean led = false;
+
+        System.out.print("Digite o valor do sensor potenciômetro 1: ");
+        pot1 = sc.nextInt();
+        System.out.print("Digite o valor do sensor potenciômetro 2: ");
+        pot2 = sc.nextInt();
+
+        if(pot1 > pot2){
+            res += pot1 + pot2;
+            System.out.printf("A resposta é: %d ", res);
+            led = true;
+        }else {
+            led = false;
+        }
+        sc.close();
+
+    }
+}
+        </pre>
+    
+    </head>
+    <body>

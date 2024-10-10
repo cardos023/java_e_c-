@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(91, 119, 212);
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+div{
+border-radius: 12px;
+text-align: center;
+border-radius: 12px;
+}
+p{
+    font-size: 30px;
+}
+nav a{ 
+    text-align: center;
+    text-decoration: none;
+    color: bisque;
+}
+pre{
+    font-size: 25px;
+}
+img{
+    border-radius:15px;
+}
+nav a{
+    font-weight: bold;
+    text-align: center;
+}
